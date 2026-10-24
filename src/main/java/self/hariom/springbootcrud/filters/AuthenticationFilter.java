@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 @Component
-@Order(1)
+@Order(2)
 public class AuthenticationFilter implements Filter {
     @Override
     public void doFilter(
